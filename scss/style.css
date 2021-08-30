@@ -97,7 +97,7 @@ footer {
   }
 }
 
-.r1c2 .graduation, .r1c2 [class*=graduation] {
+[class*=graduation], .r1c2 .graduation {
   font-size: 13px;
   color: #cfcfcf;
 }/*# sourceMappingURL=style.css.map */
