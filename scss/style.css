@@ -79,25 +79,25 @@ footer {
   margin: 20px auto;
 }
 
-.dark_mode, .r2c1, .r1c3 {
+.r2c1, .r1c3 {
   background-color: white;
   color: #cfcfcf;
   box-shadow: 0px 5px 8px 0px #6d666752;
 }
-.dark_mode .full-name, .r2c1 .full-name, .r1c3 .full-name {
+.r2c1 .full-name, .r1c3 .full-name {
   color: #48556a;
 }
-.dark_mode h3, .r2c1 h3, .r1c3 h3 {
+.r2c1 h3, .r1c3 h3 {
   color: #19212e;
 }
 
 @media only screen and (max-width: 767px) {
-  .responsive, .r1c1, .r1c2, .r2c1, .r2c2, .r1c3 {
+  .r1c1, .r1c2, .r2c1, .r2c2, .r1c3 {
     grid-column: 1;
   }
 }
 
-.graduation, [class*=graduation], .r1c2 .graduation {
+.r1c2 .graduation, .r1c2 [class*=graduation] {
   font-size: 13px;
   color: #cfcfcf;
 }/*# sourceMappingURL=style.css.map */
